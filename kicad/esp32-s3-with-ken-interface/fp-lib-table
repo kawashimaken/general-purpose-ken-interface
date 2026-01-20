@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32-WROOM-32E__16MB_")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32-WROOM-32E__16MB_")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/lib/TYPE-C-31-M-12")(options "")(descr ""))
+  (lib (name "UMH3N")(type "KiCad")(uri "${KIPRJMOD}/lib/UMH3N/UMH3N.pretty")(options "")(descr ""))
+  (lib (name "B5819W")(type "KiCad")(uri "${KIPRJMOD}/lib/B5819W.pretty")(options "")(descr ""))
+  (lib (name "PM254-2-15-W-8.5")(type "KiCad")(uri "${KIPRJMOD}/lib/PM254-2-15-W-8.5.pretty")(options "")(descr ""))
+  (lib (name "XDZ254-2-15-W-2.5-G1")(type "KiCad")(uri "${KIPRJMOD}/lib/XDZ254-2-15-W-2.5-G1.pretty")(options "")(descr ""))
+)
