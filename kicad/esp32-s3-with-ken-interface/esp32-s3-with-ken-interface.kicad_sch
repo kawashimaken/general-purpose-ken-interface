@@ -7568,7 +7568,7 @@
 		)
 		(uuid "1416d425-c49a-4d0f-87a7-e9038cf7dc10")
 	)
-	(label "IO7"
+	(label "IO40"
 		(at 44.45 205.74 0)
 		(effects
 			(font
@@ -7578,7 +7578,7 @@
 		)
 		(uuid "14bd1b98-4cd0-4435-8e56-236e5e02a4c6")
 	)
-	(label "IO17"
+	(label "IO41"
 		(at 44.45 209.55 0)
 		(effects
 			(font
@@ -7688,7 +7688,7 @@
 		)
 		(uuid "2223e7af-c494-4f57-ae32-7124c4b09830")
 	)
-	(label "IO18"
+	(label "IO39"
 		(at 44.45 201.93 0)
 		(effects
 			(font
@@ -8798,7 +8798,7 @@
 		)
 		(uuid "b25b2e09-9ee6-432a-a044-b0a464f2a40b")
 	)
-	(label "IO15"
+	(label "IO42"
 		(at 44.45 213.36 0)
 		(effects
 			(font
@@ -8898,7 +8898,7 @@
 		)
 		(uuid "c3fca3fd-a131-4aca-ae30-69c00057df56")
 	)
-	(label "IO8"
+	(label "IO14"
 		(at 44.45 194.31 0)
 		(effects
 			(font
@@ -8948,7 +8948,7 @@
 		)
 		(uuid "d1a5e9b6-0aed-4f71-91aa-dad50d6af4b0")
 	)
-	(label "IO16"
+	(label "IO21"
 		(at 44.45 198.12 0)
 		(effects
 			(font
