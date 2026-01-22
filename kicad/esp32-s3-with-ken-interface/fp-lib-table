@@ -6,4 +6,5 @@
   (lib (name "B5819W")(type "KiCad")(uri "${KIPRJMOD}/lib/B5819W.pretty")(options "")(descr ""))
   (lib (name "PM254-2-15-W-8.5")(type "KiCad")(uri "${KIPRJMOD}/lib/PM254-2-15-W-8.5.pretty")(options "")(descr ""))
   (lib (name "XDZ254-2-15-W-2.5-G1")(type "KiCad")(uri "${KIPRJMOD}/lib/XDZ254-2-15-W-2.5-G1.pretty")(options "")(descr ""))
+  (lib (name "TSC015A03526A")(type "KiCad")(uri "${KIPRJMOD}/lib/TSC015A03526A.pretty")(options "")(descr ""))
 )
