@@ -6218,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.71) (xy 260.35 92.71)
+			(xy 242.57 92.71) (xy 260.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6688,7 +6688,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 95.25) (xy 260.35 95.25)
+			(xy 242.57 95.25) (xy 260.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8796,16 +8796,6 @@
 		)
 		(uuid "65e6cc1b-3714-469c-8db9-f94ac65b79a2")
 	)
-	(label "USB_SERIAL_RXI"
-		(at 251.46 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6614ff21-6a22-48b8-aa60-6a23b9275c9c")
-	)
 	(label "PWM_3"
 		(at 205.74 185.42 0)
 		(effects
@@ -8857,7 +8847,7 @@
 		(uuid "6a56aa40-0442-4226-89a0-aff5486c416a")
 	)
 	(label "MCU_TX"
-		(at 220.98 92.71 0)
+		(at 242.57 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9507,7 +9497,7 @@
 		(uuid "d44a467e-ea3e-4831-bc9d-016817b87ce9")
 	)
 	(label "MCU_RX"
-		(at 220.98 95.25 0)
+		(at 242.57 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9515,16 +9505,6 @@
 			(justify left bottom)
 		)
 		(uuid "d480d8a0-c848-4d95-800f-5934c91ead71")
-	)
-	(label "USB_SERIAL_TXO"
-		(at 251.46 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d491dd7d-a32a-44c9-ad55-09b4799a622a")
 	)
 	(label "IO42"
 		(at 222.25 232.41 0)
