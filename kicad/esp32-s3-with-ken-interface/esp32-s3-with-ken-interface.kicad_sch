@@ -8086,7 +8086,7 @@
 		)
 		(uuid "0a6f9edf-19b9-4fe8-a000-439de8119fac")
 	)
-	(label "ADC_2"
+	(label "ADC_B"
 		(at 85.09 146.05 0)
 		(effects
 			(font
@@ -8246,7 +8246,7 @@
 		)
 		(uuid "20dae8b2-bbd4-4a98-a50f-980f8032351a")
 	)
-	(label "ADC_1"
+	(label "ADC_A"
 		(at 205.74 152.4 0)
 		(effects
 			(font
@@ -8496,7 +8496,7 @@
 		)
 		(uuid "447d7e93-08ca-4b57-9b5b-aa984ea4f66b")
 	)
-	(label "ADC_2"
+	(label "ADC_B"
 		(at 341.63 154.94 0)
 		(effects
 			(font
@@ -8686,7 +8686,7 @@
 		)
 		(uuid "5c2c0034-b59a-4153-8013-b868b120a3b0")
 	)
-	(label "ADC_2"
+	(label "ADC_B"
 		(at 205.74 154.94 0)
 		(effects
 			(font
@@ -9286,7 +9286,7 @@
 		)
 		(uuid "ad8674c0-80d6-4c47-9a9b-4f0d6c0189bb")
 	)
-	(label "ADC_1"
+	(label "ADC_A"
 		(at 341.63 152.4 0)
 		(effects
 			(font
@@ -9346,7 +9346,7 @@
 		)
 		(uuid "b3a10749-fcae-495f-bf27-868fd0db6aac")
 	)
-	(label "ADC_1"
+	(label "ADC_A"
 		(at 85.09 142.24 0)
 		(effects
 			(font
