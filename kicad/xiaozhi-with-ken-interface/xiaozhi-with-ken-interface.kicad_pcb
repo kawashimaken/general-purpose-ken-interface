@@ -4502,28 +4502,16 @@
 			(uuid "11941eaf-8fd6-4592-b485-a24e2bcaf325")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/oled_128x32/128x32-OLED.STEP"
-			(opacity 0.7000)
+		(model "${KIPRJMOD}/lib/oled_128x32/OLED_0.91_128x32.stp"
+			(opacity 0.6700)
 			(offset
-				(xyz 18.7 -6 5)
+				(xyz 19 -6 4.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz -0 -0 -180)
-			)
-		)
-		(model "${KIPRJMOD}/lib/oled_128x32/OLED 32x 128.SLDPRT"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
