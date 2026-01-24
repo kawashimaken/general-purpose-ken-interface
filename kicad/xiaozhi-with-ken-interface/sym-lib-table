@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-WROOM-32E__16MB_")(type "Legacy")(uri "${KIPRJMOD}/lib/ESP32-WROOM-32E__16MB_/ESP32-WROOM-32E__16MB_.lib")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "Legacy")(uri "${KIPRJMOD}/lib/TYPE-C-31-M-12/TYPE-C-31-M-12.lib")(options "")(descr ""))
+  (lib (name "UMH3N")(type "KiCad")(uri "${KIPRJMOD}/lib/UMH3N/UMH3N.kicad_sym")(options "")(descr ""))
+  (lib (name "B5819W")(type "KiCad")(uri "${KIPRJMOD}/lib/B5819W.kicad_sym")(options "")(descr ""))
+  (lib (name "PM254-2-15-W-8.5")(type "KiCad")(uri "${KIPRJMOD}/lib/PM254-2-15-W-8.5.kicad_sym")(options "")(descr ""))
+  (lib (name "XDZ254-2-15-W-2.5-G1")(type "KiCad")(uri "${KIPRJMOD}/lib/XDZ254-2-15-W-2.5-G1.kicad_sym")(options "")(descr ""))
+  (lib (name "TSC015A03526A")(type "KiCad")(uri "${KIPRJMOD}/lib/TSC015A03526A.kicad_sym")(options "")(descr ""))
+  (lib (name "inmp441_microphone_i2s")(type "KiCad")(uri "${KIPRJMOD}/lib/inmp441/inmp441_microphone_i2s.kicad_sym")(options "")(descr ""))
+  (lib (name "adafruit-MAX98357")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX98357/adafruit-MAX98357.kicad_sym")(options "")(descr ""))
+)
