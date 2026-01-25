@@ -10,4 +10,5 @@
   (lib (name "inmp441")(type "KiCad")(uri "${KIPRJMOD}/lib/inmp441")(options "")(descr ""))
   (lib (name "adafruit-MAX98357")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX98357/adafruit-MAX98357.pretty")(options "")(descr ""))
   (lib (name "oled_128x32")(type "KiCad")(uri "${KIPRJMOD}/lib/oled_128x32")(options "")(descr ""))
+  (lib (name "FS-1540")(type "KiCad")(uri "${KIPRJMOD}/lib/FS-1540/FS-1540.pretty")(options "")(descr ""))
 )

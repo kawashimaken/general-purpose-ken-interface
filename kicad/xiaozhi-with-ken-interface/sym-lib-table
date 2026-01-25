@@ -9,4 +9,5 @@
   (lib (name "TSC015A03526A")(type "KiCad")(uri "${KIPRJMOD}/lib/TSC015A03526A.kicad_sym")(options "")(descr ""))
   (lib (name "inmp441_microphone_i2s")(type "KiCad")(uri "${KIPRJMOD}/lib/inmp441/inmp441_microphone_i2s.kicad_sym")(options "")(descr ""))
   (lib (name "adafruit-MAX98357")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX98357/adafruit-MAX98357.kicad_sym")(options "")(descr ""))
+  (lib (name "FS-1540")(type "KiCad")(uri "${KIPRJMOD}/lib/FS-1540/FS-1540.kicad_sym")(options "")(descr ""))
 )
