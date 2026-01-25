@@ -1819,7 +1819,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/lib/inmp441/INMP441 I2S Microphone Module v15.step"
 			(offset
-				(xyz 0 0 5)
+				(xyz -1.3 0 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
