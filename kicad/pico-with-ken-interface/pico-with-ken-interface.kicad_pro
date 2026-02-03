@@ -544,6 +544,7 @@
       "VS2": "rgb(158, 232, 255)",
       "VS3": "rgb(174, 151, 255)",
       "unconnected-(H4-Pad1)_1": "rgb(82, 255, 121)",
+      "unconnected-(SW2-Pad1)": "rgb(255, 77, 171)",
       "unconnected-(U1-NC-Pad17)": "rgb(88, 255, 41)",
       "unconnected-(U1-NC-Pad19)": "rgb(255, 32, 210)",
       "unconnected-(U1-NC-Pad20)": "rgb(241, 47, 255)",
