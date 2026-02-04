@@ -3174,6 +3174,18 @@
 		)
 		(uuid fe22ec0c-816c-4cbc-9fb7-668c33c8efcb)
 	)
+	(text "IMPORTANT:LRCLK (WS) = BCLK + 1\nThe LRCLK/word clock will be pin + 1\ndue to limitations of the PIO state machines. "
+		(exclude_from_sim no)
+		(at 50.292 220.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0d5130ac-9532-4510-83f9-3205cf025e74")
+	)
 	(text "for MAX98357A, etc."
 		(exclude_from_sim no)
 		(at 28.194 202.946 0)
@@ -3242,9 +3254,9 @@
 		)
 		(uuid "46619f86-8a4d-46ac-9e67-10376275893a")
 	)
-	(text "word select"
+	(text "word select=left right clock"
 		(exclude_from_sim no)
-		(at 53.34 190.246 0)
+		(at 53.594 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3278,7 +3290,7 @@
 	)
 	(text "serial clock"
 		(exclude_from_sim no)
-		(at 53.34 194.31 0)
+		(at 53.34 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3287,9 +3299,9 @@
 		)
 		(uuid "63bdba4e-2b40-4cd4-8295-b6ee09a6ade1")
 	)
-	(text "left right clock"
+	(text "left right clock=word select"
 		(exclude_from_sim no)
-		(at 53.594 214.63 0)
+		(at 53.848 210.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3300,7 +3312,7 @@
 	)
 	(text "bit clock"
 		(exclude_from_sim no)
-		(at 53.34 210.566 0)
+		(at 53.848 206.756 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3345,7 +3357,7 @@
 	)
 	(text "digital input"
 		(exclude_from_sim no)
-		(at 53.594 207.01 0)
+		(at 53.848 214.376 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,16 +3501,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 190.5) (xy 48.26 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049a73fa-d329-4277-8091-95fc102c0966")
-	)
-	(wire
-		(pts
 			(xy 252.73 170.18) (xy 232.41 170.18)
 		)
 		(stroke
@@ -3536,6 +3538,16 @@
 			(type default)
 		)
 		(uuid "0bc9a9c2-aab7-49e4-91ea-b8b277f468f1")
+	)
+	(wire
+		(pts
+			(xy 27.94 207.01) (xy 46.99 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd1cb83-b292-4b92-8d4b-a806cb5b33d5")
 	)
 	(wire
 		(pts
@@ -3586,6 +3598,16 @@
 			(type default)
 		)
 		(uuid "1200cfcf-9ea2-4e99-93df-4f0ce4b92080")
+	)
+	(wire
+		(pts
+			(xy 27.94 194.31) (xy 48.26 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121ea82f-833b-4b54-b589-c5795e14f63f")
 	)
 	(wire
 		(pts
@@ -4429,6 +4451,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 210.82) (xy 46.99 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94525593-f475-4799-9434-5858e15ef06c")
+	)
+	(wire
+		(pts
 			(xy 217.17 152.4) (xy 205.74 152.4)
 		)
 		(stroke
@@ -4459,16 +4491,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 194.31) (xy 48.26 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce48fb1-3f11-4c88-bb95-a7bdd95a7850")
-	)
-	(wire
-		(pts
 			(xy 172.72 80.01) (xy 173.99 80.01)
 		)
 		(stroke
@@ -4476,26 +4498,6 @@
 			(type default)
 		)
 		(uuid "9d486103-9599-4774-ab03-f8fa50d8c495")
-	)
-	(wire
-		(pts
-			(xy 27.94 207.01) (xy 48.26 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d62b61f-3df5-4aec-9c18-52df83449268")
-	)
-	(wire
-		(pts
-			(xy 27.94 210.82) (xy 48.26 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d23c0b-8b53-4729-8bac-0a798224e5d7")
 	)
 	(wire
 		(pts
@@ -4546,6 +4548,16 @@
 			(type default)
 		)
 		(uuid "aaa1bb9a-cb49-45d8-a1ee-f02fb5bd6448")
+	)
+	(wire
+		(pts
+			(xy 27.94 190.5) (xy 48.26 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac585e7f-1e6b-4af5-b25e-8ccbc1902e68")
 	)
 	(wire
 		(pts
@@ -4849,6 +4861,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 214.63) (xy 46.99 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8947be3-0efd-476e-9633-9f0716c71629")
+	)
+	(wire
+		(pts
 			(xy 27.94 142.24) (xy 52.07 142.24)
 		)
 		(stroke
@@ -5006,16 +5028,6 @@
 			(type default)
 		)
 		(uuid "ed7cad21-c9e0-4974-9bd2-caec90f51d4c")
-	)
-	(wire
-		(pts
-			(xy 27.94 214.63) (xy 48.26 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f06e4e42-ef2e-4ed2-9512-b86cc0e8fedd")
 	)
 	(wire
 		(pts
@@ -5178,7 +5190,7 @@
 		(uuid "03bdcf29-36fe-40fb-9371-140a4f29967c")
 	)
 	(label "I2S_A_WS"
-		(at 27.94 190.5 0)
+		(at 27.94 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5398,7 +5410,7 @@
 		(uuid "2223e7af-c494-4f57-ae32-7124c4b09830")
 	)
 	(label "I2S_B_LRC"
-		(at 27.94 214.63 0)
+		(at 27.94 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5488,7 +5500,7 @@
 		(uuid "344ac2a7-ad6a-46a5-a7d6-39d3201d1f36")
 	)
 	(label "I2S_A_SCK"
-		(at 27.94 194.31 0)
+		(at 27.94 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5538,7 +5550,7 @@
 		(uuid "3b457a9b-a357-43d8-a955-2f4847d1a0c2")
 	)
 	(label "I2S_B_DIN"
-		(at 27.94 207.01 0)
+		(at 27.94 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5648,7 +5660,7 @@
 		(uuid "5218925f-84f9-447d-8cab-169be61b2984")
 	)
 	(label "GPIO7"
-		(at 48.26 207.01 180)
+		(at 46.99 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5988,7 +6000,7 @@
 		(uuid "8dcbf452-3f57-4139-a61d-115490e06a02")
 	)
 	(label "GPIO9"
-		(at 48.26 214.63 180)
+		(at 46.99 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5998,7 +6010,7 @@
 		(uuid "8f194b1f-91d5-4c99-a573-d82da66ccda3")
 	)
 	(label "I2S_B_BCLK"
-		(at 27.94 210.82 0)
+		(at 27.94 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6368,7 +6380,7 @@
 		(uuid "ce2fb970-6e23-44b3-ba0c-2e732a18fbe7")
 	)
 	(label "GPIO8"
-		(at 48.26 210.82 180)
+		(at 46.99 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
