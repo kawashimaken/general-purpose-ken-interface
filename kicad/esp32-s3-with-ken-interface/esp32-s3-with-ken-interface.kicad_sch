@@ -5042,8 +5042,8 @@
 		(uuid 6c54a2e0-4baa-4009-a1b3-63dcc1ce5df2)
 	)
 	(rectangle
-		(start 15.24 257.81)
-		(end 242.57 281.94)
+		(start 15.24 246.38)
+		(end 297.18 281.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -5067,7 +5067,7 @@
 	)
 	(rectangle
 		(start 130.81 205.74)
-		(end 242.57 254)
+		(end 242.57 243.84)
 		(stroke
 			(width 0)
 			(type default)
@@ -5103,7 +5103,7 @@
 	)
 	(rectangle
 		(start 15.24 128.27)
-		(end 128.27 254)
+		(end 128.27 243.84)
 		(stroke
 			(width 0)
 			(type default)
@@ -5176,7 +5176,7 @@
 	)
 	(text "GPIO0, GPIO3, GPIO45, GPIO46 : Strapping pins.\nGPIO26, GPIO27, GPIO28, GPIO29, GPIO30, GPIO31, GPIO32 : SPI0/1 interface connected to\nthe in-package flash and PSRAM, or recommended for the off-package flash and PSRAM."
 		(exclude_from_sim no)
-		(at 17.78 261.874 0)
+		(at 18.288 249.174 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5287,6 +5287,16 @@
 		)
 		(uuid "71cfced2-27dc-4a0c-bf75-a08695025524")
 	)
+	(text "Octal Flash / PSRAM variants (e.g. N16R8, N8R8)\nGPIO33-37 - Additionally occupied by Octal SPI lines. Do not use."
+		(exclude_from_sim no)
+		(at 81.026 270.51 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7229862c-9e43-4589-a09b-6dcbb69de981")
+	)
 	(text "bit clock"
 		(exclude_from_sim no)
 		(at 49.53 210.566 0)
@@ -5370,7 +5380,7 @@
 	)
 	(text "options (or just use pwm pins)"
 		(exclude_from_sim no)
-		(at 156.464 225.298 0)
+		(at 152.654 212.598 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5403,7 +5413,7 @@
 	)
 	(text "for oled, etc. option"
 		(exclude_from_sim no)
-		(at 205.74 224.282 0)
+		(at 201.93 211.582 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5788,7 +5798,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 240.03) (xy 172.72 240.03)
+			(xy 152.4 227.33) (xy 168.91 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6338,7 +6348,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 236.22) (xy 172.72 236.22)
+			(xy 152.4 223.52) (xy 168.91 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6588,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 228.6) (xy 222.25 228.6)
+			(xy 201.93 215.9) (xy 218.44 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7408,7 +7418,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 232.41) (xy 222.25 232.41)
+			(xy 201.93 219.71) (xy 218.44 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7768,7 +7778,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 228.6) (xy 172.72 228.6)
+			(xy 152.4 215.9) (xy 168.91 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8018,7 +8028,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 232.41) (xy 172.72 232.41)
+			(xy 152.4 219.71) (xy 168.91 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8157,7 +8167,7 @@
 		(uuid "0adc9815-cee0-4f0c-9616-5cbb9f2cf259")
 	)
 	(label "BTN_A"
-		(at 156.21 228.6 0)
+		(at 152.4 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8187,7 +8197,7 @@
 		(uuid "12a5f0f6-6c07-48e7-a445-5adee195549a")
 	)
 	(label "BTN_D"
-		(at 156.21 240.03 0)
+		(at 152.4 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8957,7 +8967,7 @@
 		(uuid "763eaf7b-bbba-400d-a194-e457526ccb56")
 	)
 	(label "BTN_C"
-		(at 156.21 236.22 0)
+		(at 152.4 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8967,7 +8977,7 @@
 		(uuid "777ac862-7804-4394-82f9-b3ba58b9474c")
 	)
 	(label "IO39"
-		(at 172.72 236.22 0)
+		(at 168.91 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9087,7 +9097,7 @@
 		(uuid "87422165-7796-4ff7-aef3-2dabb2844f39")
 	)
 	(label "I2C_B_SCL"
-		(at 205.74 232.41 0)
+		(at 201.93 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9157,7 +9167,7 @@
 		(uuid "98f0841f-1840-49a6-84b6-36f53d6ac2a3")
 	)
 	(label "IO41"
-		(at 222.25 228.6 0)
+		(at 218.44 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9337,7 +9347,7 @@
 		(uuid "af53a6e2-b41b-4c5c-b307-7629531b879b")
 	)
 	(label "BTN_B"
-		(at 156.21 232.41 0)
+		(at 152.4 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9427,7 +9437,7 @@
 		(uuid "ba1197ac-9fef-479d-be29-dce4bc778a0b")
 	)
 	(label "IO14"
-		(at 172.72 228.6 0)
+		(at 168.91 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9487,7 +9497,7 @@
 		(uuid "c9f7b4f1-0a9d-42d8-a0d0-50cf74987379")
 	)
 	(label "IO21"
-		(at 172.72 232.41 0)
+		(at 168.91 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9557,7 +9567,7 @@
 		(uuid "d480d8a0-c848-4d95-800f-5934c91ead71")
 	)
 	(label "IO42"
-		(at 222.25 232.41 0)
+		(at 218.44 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9567,7 +9577,7 @@
 		(uuid "d64af885-d07f-499b-a807-31e382bc6075")
 	)
 	(label "IO40"
-		(at 172.72 240.03 0)
+		(at 168.91 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9637,7 +9647,7 @@
 		(uuid "f75d2ca3-9f07-47c8-8200-0310af5b60d8")
 	)
 	(label "I2C_B_SDA"
-		(at 205.74 228.6 0)
+		(at 201.93 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
