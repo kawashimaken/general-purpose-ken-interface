@@ -3286,6 +3286,16 @@
 		)
 		(uuid "37ea17a6-a9d9-449f-9b94-0e5fb4cebee8")
 	)
+	(text "20"
+		(exclude_from_sim no)
+		(at 373.38 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "409d9dad-5d2b-4c59-8848-5cf9edb3c6ac")
+	)
 	(text "female"
 		(exclude_from_sim no)
 		(at 329.692 193.548 0)
@@ -3469,6 +3479,16 @@
 			(justify left bottom)
 		)
 		(uuid "91af5b28-e218-4cc1-92c2-4a1c651c7617")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 373.38 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ad77754-1581-47ec-aa17-d4ea95b8d7b4")
 	)
 	(text "ST7735s/GC9A01/ST7789 v2"
 		(exclude_from_sim no)
