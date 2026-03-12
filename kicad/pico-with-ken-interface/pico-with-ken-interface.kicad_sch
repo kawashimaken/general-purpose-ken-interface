@@ -3091,6 +3091,18 @@
 		(uuid 03a17aca-749f-4919-8979-74a1138bc813)
 	)
 	(rectangle
+		(start 26.67 157.48)
+		(end 53.34 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 355d1082-f46e-45fe-9ddc-3745b3f849cf)
+	)
+	(rectangle
 		(start 346.71 205.74)
 		(end 405.13 250.19)
 		(stroke
@@ -5199,7 +5211,7 @@
 		)
 		(uuid "0a6f9edf-19b9-4fe8-a000-439de8119fac")
 	)
-	(label "GPIO2"
+	(label "GPIO4"
 		(at 52.07 160.02 180)
 		(effects
 			(font
@@ -5309,7 +5321,7 @@
 		)
 		(uuid "1852ff37-cb96-411f-9d1a-1d57cf0551e9")
 	)
-	(label "GPIO4"
+	(label "GPIO2"
 		(at 48.26 190.5 180)
 		(effects
 			(font
@@ -5689,7 +5701,7 @@
 		)
 		(uuid "5737f0e4-d687-4881-b01f-733f799ae3a1")
 	)
-	(label "GPIO3"
+	(label "GPIO5"
 		(at 52.07 163.83 180)
 		(effects
 			(font
@@ -6579,7 +6591,7 @@
 		)
 		(uuid "eeba44da-8695-4d5c-9017-acb66d8e39d6")
 	)
-	(label "GPIO5"
+	(label "GPIO3"
 		(at 48.26 194.31 180)
 		(effects
 			(font
