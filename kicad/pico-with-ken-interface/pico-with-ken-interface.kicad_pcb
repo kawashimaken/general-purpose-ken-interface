@@ -611,7 +611,7 @@
 	(footprint "kibuzzard-69B2BD76"
 		(layer "F.Cu")
 		(uuid "09726b34-ef56-4bdb-aba7-dab86d67c4e9")
-		(at 119.634 89.154)
+		(at 119.761 89.154)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIj4iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzkiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAxLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMS4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAxLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-69B2BD76"
@@ -622,6 +622,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -633,6 +634,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -744,7 +746,7 @@
 	(footprint "kibuzzard-69B2BC62"
 		(layer "F.Cu")
 		(uuid "14c65401-9e7f-4e1a-b241-fa347b835c14")
-		(at 75.946 94.234)
+		(at 76.2 94.234)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzE2IiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMS4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuMCwgIlBhZGRpbmdUb3BDdHJsIjogMS4wLCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-69B2BC62"
@@ -755,6 +757,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -766,6 +769,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1129,7 +1133,7 @@
 	(footprint "kibuzzard-69B2BD42"
 		(layer "F.Cu")
 		(uuid "174b23c6-a9a5-4438-8cb0-102535d5ef8b")
-		(at 119.634 78.994)
+		(at 119.761 78.994)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIj4iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzMiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAxLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMS4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAxLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-69B2BD42"
@@ -1140,6 +1144,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1151,6 +1156,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1260,6 +1266,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1271,6 +1278,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1381,6 +1389,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1392,6 +1401,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1501,6 +1511,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1512,6 +1523,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1832,6 +1844,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1843,6 +1856,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1955,6 +1969,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1966,6 +1981,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2076,6 +2092,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2087,6 +2104,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2183,7 +2201,7 @@
 	(footprint "kibuzzard-69B2BCB2"
 		(layer "F.Cu")
 		(uuid "630f288e-a33f-46a2-ba8f-e9feb3da78c7")
-		(at 76.2 78.994)
+		(at 76.327 78.994)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzIxIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMS4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuMCwgIlBhZGRpbmdUb3BDdHJsIjogMS4wLCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-69B2BCB2"
@@ -2194,6 +2212,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2205,6 +2224,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2870,7 +2890,7 @@
 	(footprint "kibuzzard-69B2BD56"
 		(layer "F.Cu")
 		(uuid "6f77ba22-bb83-46e3-a30c-d0aeba3dff67")
-		(at 119.634 81.534)
+		(at 119.761 81.534)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIj4iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzIiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAxLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMS4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAxLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-69B2BD56"
@@ -2881,6 +2901,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2892,6 +2913,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2988,7 +3010,7 @@
 	(footprint "kibuzzard-69B2BC5B"
 		(layer "F.Cu")
 		(uuid "7b49991a-8389-433e-9b8a-24f1e894825b")
-		(at 75.946 96.774)
+		(at 76.2 96.774)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzE4IiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMS4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuMCwgIlBhZGRpbmdUb3BDdHJsIjogMS4wLCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-69B2BC5B"
@@ -2999,6 +3021,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3010,6 +3033,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3150,6 +3174,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3161,6 +3186,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3257,7 +3283,7 @@
 	(footprint "kibuzzard-69B2BCA8"
 		(layer "F.Cu")
 		(uuid "973bb604-b53b-44ed-9840-0557e274afad")
-		(at 76.2 76.454)
+		(at 76.327 76.454)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzIwIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMS4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuMCwgIlBhZGRpbmdUb3BDdHJsIjogMS4wLCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-69B2BCA8"
@@ -3268,6 +3294,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3279,6 +3306,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8726,6 +8754,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8737,6 +8766,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8864,6 +8894,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8875,6 +8906,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10355,7 +10387,7 @@
 	(footprint "kibuzzard-69B2BC53"
 		(layer "F.Cu")
 		(uuid "bd6d48dd-a003-4ccc-a369-c30672c395c6")
-		(at 75.946 99.314)
+		(at 76.2 99.314)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzE3IiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMS4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuMCwgIlBhZGRpbmdUb3BDdHJsIjogMS4wLCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-69B2BC53"
@@ -10366,6 +10398,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10377,6 +10410,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10473,7 +10507,7 @@
 	(footprint "kibuzzard-69B2BD8D"
 		(layer "F.Cu")
 		(uuid "c026164d-24db-4225-a913-d68e48dff877")
-		(at 119.634 94.234)
+		(at 119.761 94.234)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIj4iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzgiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAxLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMS4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAxLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-69B2BD8D"
@@ -10484,6 +10518,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10495,6 +10530,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10632,6 +10668,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10643,6 +10680,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10775,6 +10813,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10786,6 +10825,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10880,7 +10920,7 @@
 	(footprint "kibuzzard-69B2BC4D"
 		(layer "F.Cu")
 		(uuid "d94343c0-b73c-4838-b905-65215ed4f3bb")
-		(at 75.946 101.854)
+		(at 76.2 101.854)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzEwIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMS4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuMCwgIlBhZGRpbmdUb3BDdHJsIjogMS4wLCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-69B2BC4D"
@@ -10891,6 +10931,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10902,6 +10943,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12010,7 +12052,7 @@
 	(footprint "kibuzzard-69B2BC71"
 		(layer "F.Cu")
 		(uuid "ec83a9d9-672e-4d15-bed6-dbc18e246699")
-		(at 75.946 91.694)
+		(at 76.2 91.694)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzE5IiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS4wLCAiUGFkZGluZ0xlZnRDdHJsIjogMS4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuMCwgIlBhZGRpbmdUb3BDdHJsIjogMS4wLCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IGZhbHNlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IGZhbHNlLCAibGluZW92ZXJTdHlsZUNob2ljZSI6ICJTcXVhcmUiLCAibGluZW92ZXJUaGlja25lc3NDdHJsIjogMX0=")
 		(property "Reference" "kibuzzard-69B2BC71"
@@ -12021,6 +12063,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12032,6 +12075,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12146,7 +12190,7 @@
 	(footprint "kibuzzard-69B2BD80"
 		(layer "F.Cu")
 		(uuid "ee04a09c-8efb-46c5-9b6f-fcd5a90c5271")
-		(at 119.634 91.694)
+		(at 119.761 91.694)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIj4iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzciLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAxLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMS4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAxLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-69B2BD80"
@@ -12157,6 +12201,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12168,6 +12213,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12261,7 +12307,7 @@
 	(footprint "kibuzzard-69B2BD62"
 		(layer "F.Cu")
 		(uuid "f61c9c0d-a011-4f4e-99dc-9929b29b38ef")
-		(at 119.634 84.074)
+		(at 119.761 84.074)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICJbIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIj4iLCAiRm9udENvbWJvQm94IjogIlNoYXJlVGVjaE1vbm8tUmVndWxhciIsICJIZWlnaHRDdHJsIjogMS4wLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuMCwgIk11bHRpTGluZVRleHQiOiAiR1BJTzYiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAxLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMS4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAxLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-69B2BD62"
@@ -12272,6 +12318,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12283,6 +12330,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14528,7 +14576,7 @@
 			)
 		)
 	)
-	(gr_text "Raspberry Pi Pico (RP2040)\nwith EKN Interface"
+	(gr_text "Raspberry Pi Pico (RP2040)\nwith KEN Interface"
 		(at 99.06 116.84 0)
 		(layer "F.SilkS" knockout)
 		(uuid "c1bf7aee-a145-418e-92bd-52b51e94b556")
@@ -14539,7 +14587,7 @@
 				(thickness 0.15)
 			)
 		)
-		(render_cache "Raspberry Pi Pico (RP2040)\nwith EKN Interface" 0
+		(render_cache "Raspberry Pi Pico (RP2040)\nwith KEN Interface" 0
 			(polygon
 				(pts
 					(xy 80.302676 114.043407) (xy 80.419646 114.079659) (xy 80.506947 114.134975) (xy 80.557674 114.191311)
@@ -14909,16 +14957,16 @@
 			)
 			(polygon
 				(pts
-					(xy 94.242066 117.389951) (xy 94.242066 117.594382) (xy 93.55037 117.594382) (xy 93.55037 118.235642)
-					(xy 94.171968 118.235642) (xy 94.171968 118.439951) (xy 93.55037 118.439951) (xy 93.55037 119.145568)
-					(xy 94.242066 119.145568) (xy 94.242066 119.35) (xy 93.30686 119.35) (xy 93.30686 117.389951)
+					(xy 93.488821 118.627651) (xy 93.488821 119.35) (xy 93.245189 119.35) (xy 93.245189 117.389951)
+					(xy 93.488821 117.389951) (xy 93.488821 118.235642) (xy 94.020782 117.389951) (xy 94.286762 117.389951)
+					(xy 93.746375 118.255181) (xy 94.320468 119.35) (xy 94.040444 119.35) (xy 93.595189 118.468039)
 				)
 			)
 			(polygon
 				(pts
-					(xy 94.999219 118.627651) (xy 94.999219 119.35) (xy 94.755587 119.35) (xy 94.755587 117.389951)
-					(xy 94.999219 117.389951) (xy 94.999219 118.235642) (xy 95.53118 117.389951) (xy 95.79716 117.389951)
-					(xy 95.256773 118.255181) (xy 95.830866 119.35) (xy 95.550841 119.35) (xy 95.105587 118.468039)
+					(xy 95.752464 117.389951) (xy 95.752464 117.594382) (xy 95.060768 117.594382) (xy 95.060768 118.235642)
+					(xy 95.682366 118.235642) (xy 95.682366 118.439951) (xy 95.060768 118.439951) (xy 95.060768 119.145568)
+					(xy 95.752464 119.145568) (xy 95.752464 119.35) (xy 94.817258 119.35) (xy 94.817258 117.389951)
 				)
 			)
 			(polygon
