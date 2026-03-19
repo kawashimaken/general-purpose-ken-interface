@@ -5370,13 +5370,23 @@
 	)
 	(text "boot button"
 		(exclude_from_sim no)
-		(at 233.68 94.234 0)
+		(at 231.14 98.044 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "9a863fb4-dbe0-4042-8686-0ec5ed322b4f")
+	)
+	(text "reset"
+		(exclude_from_sim no)
+		(at 260.35 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af6dc383-bda6-4125-860d-812294fa09b2")
 	)
 	(text "options (or just use pwm pins)"
 		(exclude_from_sim no)
@@ -5497,6 +5507,12 @@
 		(uuid "399bc6a4-7485-4211-97a3-d2b6be7a0671")
 	)
 	(junction
+		(at 251.46 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a10f5c3-90f8-4174-82ed-af7f2b5f65e9")
+	)
+	(junction
 		(at 100.33 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5581,7 +5597,7 @@
 		(uuid "aaeb58c1-c29a-4f0a-aeef-1ba825a22b7c")
 	)
 	(junction
-		(at 224.79 109.22)
+		(at 222.25 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd091a31-412c-4c15-994e-3e3497216e5d")
@@ -5609,7 +5625,7 @@
 		(uuid "011ee658-718d-416a-85fd-961729cd1ee5")
 	)
 	(no_connect
-		(at 228.6 101.6)
+		(at 226.06 105.41)
 		(uuid "0f8d2099-5e38-4f89-940c-80bf7521aa42")
 	)
 	(no_connect
@@ -5629,6 +5645,10 @@
 		(uuid "64322e86-2f8a-4c30-ba62-2c798b7f0bfc")
 	)
 	(no_connect
+		(at 255.27 105.41)
+		(uuid "80483060-6c18-4550-adc6-00c01b91c656")
+	)
+	(no_connect
 		(at 356.87 232.41)
 		(uuid "96de0051-7945-413a-9219-1ab367546962")
 	)
@@ -5641,20 +5661,22 @@
 		(uuid "9cb5597a-2a1c-4104-a0ae-a1043c229966")
 	)
 	(no_connect
-		(at 391.16 232.41)
-		(uuid "ba6fc20e-7eff-4d5f-81e4-d1fad93be155")
-	)
-	(no_connect
-		(at 379.73 232.41)
-		(uuid "bde95c06-433a-4c03-bc48-e3abcdb4e054")
-	)
-	(no_connect
 		(at 60.96 95.25)
 		(uuid "c000a246-60b4-4885-a80c-beeb92433bf9")
 	)
 	(no_connect
 		(at 60.96 97.79)
 		(uuid "d0162a9e-0a3c-4f40-8d07-7656c0875d43")
+	)
+	(wire
+		(pts
+			(xy 269.24 113.03) (xy 251.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005d9ed3-0fe6-4159-84e3-dd086d673e1d")
 	)
 	(wire
 		(pts
@@ -5758,6 +5780,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 110.49) (xy 269.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dce5fde-cacc-476d-a36e-6fc01b751ff0")
+	)
+	(wire
+		(pts
 			(xy 156.21 29.21) (xy 162.56 29.21)
 		)
 		(stroke
@@ -5788,7 +5820,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 101.6) (xy 247.65 101.6)
+			(xy 236.22 105.41) (xy 245.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6008,6 +6040,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 105.41) (xy 265.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0718a5-8303-4481-afa1-39d39f644628")
+	)
+	(wire
+		(pts
 			(xy 217.17 182.88) (xy 205.74 182.88)
 		)
 		(stroke
@@ -6025,6 +6067,16 @@
 			(type default)
 		)
 		(uuid "2b0b611f-bdb3-442d-bdd1-f95b7dfbd7f7")
+	)
+	(wire
+		(pts
+			(xy 251.46 110.49) (xy 251.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa12c48-eba9-4483-ac09-af6276745e6d")
 	)
 	(wire
 		(pts
@@ -6228,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 106.68) (xy 224.79 109.22)
+			(xy 222.25 110.49) (xy 222.25 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6295,6 +6347,16 @@
 			(type default)
 		)
 		(uuid "4a0f7b3e-3338-4375-b084-1d6e6e9923ec")
+	)
+	(wire
+		(pts
+			(xy 265.43 110.49) (xy 269.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfe43ca-49d5-4ed8-babe-8a2ed6d00696")
 	)
 	(wire
 		(pts
@@ -6588,7 +6650,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 109.22) (xy 224.79 109.22)
+			(xy 240.03 113.03) (xy 222.25 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6858,6 +6920,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 35.56) (xy 270.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85da8433-19fe-40f3-87a0-0fd000143e32")
+	)
+	(wire
+		(pts
 			(xy 181.61 29.21) (xy 181.61 34.29)
 		)
 		(stroke
@@ -7038,7 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 106.68) (xy 242.57 106.68)
+			(xy 236.22 110.49) (xy 240.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7238,6 +7310,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 35.56) (xy 270.51 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab49d9cd-fd30-45cf-aa85-76e6fa00a72f")
+	)
+	(wire
+		(pts
 			(xy 27.94 190.5) (xy 44.45 190.5)
 		)
 		(stroke
@@ -7368,7 +7450,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 106.68) (xy 224.79 106.68)
+			(xy 226.06 110.49) (xy 222.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7888,6 +7970,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 110.49) (xy 251.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e755cac0-c191-4cf3-b962-8eb58690ee61")
+	)
+	(wire
+		(pts
 			(xy 336.55 175.26) (xy 341.63 175.26)
 		)
 		(stroke
@@ -8058,7 +8150,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 106.68) (xy 242.57 109.22)
+			(xy 240.03 110.49) (xy 240.03 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8297,7 +8389,7 @@
 		(uuid "1cc3859d-3497-4498-baa6-1c63f174a843")
 	)
 	(label "IO0"
-		(at 247.65 101.6 180)
+		(at 245.11 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10179,170 +10271,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 379.73 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061f79385")
-		(property "Reference" "H3"
-			(at 379.73 236.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountHole"
-			(at 379.73 225.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 379.73 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 379.73 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Screw: M2x5 (pan/round); Nut: M2 hex. LCSC min qty 50 (but still very cheap)"
-			(at 379.73 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2911210 or C2911532 (screw), C2961595 (nut)"
-			(at 379.73 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b2eb90f-4916-4496-934c-ebfaf59fd7d2")
-		)
-		(instances
-			(project ""
-				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 391.16 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061f79f4a")
-		(property "Reference" "H4"
-			(at 391.16 236.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountHole"
-			(at 391.16 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Screw: M2x5 (pan/round); Nut: M2 hex. LCSC min qty 50 (but still very cheap)"
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2911210 or C2911532 (screw), C2961595 (nut)"
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c18786e1-cb25-48dd-81cc-bf7c7fdf476f")
-		)
-		(instances
-			(project ""
-				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 275.59 30.48 0)
 		(unit 1)
@@ -10798,7 +10726,7 @@
 	)
 	(symbol
 		(lib_id "TSC015A03526A:TSC015A03526A")
-		(at 233.68 104.14 0)
+		(at 231.14 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10807,7 +10735,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a617795-b603-461c-b46c-742b732ea53b")
 		(property "Reference" "SW2"
-			(at 233.68 96.52 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +10743,7 @@
 			)
 		)
 		(property "Value" "TSC015A03526A"
-			(at 233.68 99.06 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,7 +10751,7 @@
 			)
 		)
 		(property "Footprint" "TSC015A03526A:SW-SMD_4P-L4.5-W4.5-P3.00-LS6.8"
-			(at 233.68 114.3 0)
+			(at 231.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 104.14 0)
+			(at 231.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +10769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 104.14 0)
+			(at 231.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10778,7 @@
 			)
 		)
 		(property "LCSC Part" "C2888900"
-			(at 233.68 116.84 0)
+			(at 231.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,6 +11353,89 @@
 			(project ""
 				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TSC015A03526A:TSC015A03526A")
+		(at 260.35 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32df775a-f4e9-4862-a84c-50cd65e72030")
+		(property "Reference" "SW3"
+			(at 260.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSC015A03526A"
+			(at 260.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TSC015A03526A:SW-SMD_4P-L4.5-W4.5-P3.00-LS6.8"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2888900"
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae3195b9-6a8c-441e-a8b1-12f640b905be")
+		)
+		(pin "4"
+			(uuid "616ed7ce-ece5-4ba1-aef0-5221a9bcf42b")
+		)
+		(pin "3"
+			(uuid "e02f7eac-ff22-4921-be2d-8849e3e7fe6a")
+		)
+		(pin "2"
+			(uuid "10775cbf-2ff5-4cd4-b885-bde216f02d3d")
+		)
+		(instances
+			(project "esp32-s3-with-ken-interface"
+				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -12340,7 +12351,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 109.22 0)
+		(at 222.25 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12348,7 +12359,7 @@
 		(dnp no)
 		(uuid "5c4a3d11-7eff-4c36-abb6-afbd81757bb7")
 		(property "Reference" "#PWR028"
-			(at 224.79 115.57 0)
+			(at 222.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,7 +12368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 113.03 0)
+			(at 222.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12365,7 +12376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 109.22 0)
+			(at 222.25 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +12385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 109.22 0)
+			(at 222.25 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12383,7 +12394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 109.22 0)
+			(at 222.25 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13860,6 +13871,71 @@
 			(project "controller_base"
 				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ac6552-611a-473d-bb8f-d127c1338c1c")
+		(property "Reference" "#PWR029"
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb9b5e8c-06bc-44ec-af29-7bf048c044f4")
+		)
+		(instances
+			(project "esp32-s3-with-ken-interface"
+				(path "/5edcefbe-9766-42c8-9529-28d0ec865573"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
