@@ -36,7 +36,7 @@ public:
       cfg.pin_sclk    = 12;
       cfg.pin_mosi    = 11;
       cfg.pin_miso    = 13;
-      cfg.pin_dc      = 17;
+      cfg.pin_dc      = 41;
       _bus_instance.config(cfg);
       _panel_instance.setBus(&_bus_instance);
     }
@@ -45,7 +45,7 @@ public:
     {
       auto cfg = _panel_instance.config();
       cfg.pin_cs           = 10;
-      cfg.pin_rst          = 18;
+      cfg.pin_rst          = 42;
       cfg.pin_busy         = -1;
       cfg.panel_width      = 170;
       cfg.panel_height     = 320;
