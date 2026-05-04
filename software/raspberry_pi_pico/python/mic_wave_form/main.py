@@ -45,14 +45,14 @@ audio_in = bytearray(NUM_SAMPLES * 4)   # 32-bit per sample
 
 i2s = machine.I2S(
     0,
-    sck=machine.Pin(4),
-    ws=machine.Pin(5),
-    sd=machine.Pin(6),
+    sck=machine.Pin(2),   # SCK = GP2
+    ws=machine.Pin(3),    # WS  = GP3
+    sd=machine.Pin(6),    # SD  = GP6
     mode=machine.I2S.RX,
-    bits=32,                             # INMP441: 24-bit data in 32-bit slot
+    bits=32,
     format=machine.I2S.MONO,
     rate=SAMPLE_RATE,
-    ibuf=NUM_SAMPLES * 4 * 8            # internal DMA buffer (8 frames headroom)
+    ibuf=NUM_SAMPLES * 4 * 8
 )
 
 # -------------------------
