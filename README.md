@@ -8,7 +8,9 @@ A modular, multi-MCU prototyping platform with a unified pin-assignment standard
 
 ## 📺 Watch the Introduction
 
-[![KEN Interface — YouTube introduction](https://img.youtube.com/vi/sNuc83q-v-A/maxresdefault.jpg)](https://www.youtube.com/watch?v=sNuc83q-v-A)
+[![KEN Interface — The AI Voice Chatbot You Can Build with ESP32-S3 ](https://img.youtube.com/vi/sNuc83q-v-A/maxresdefault.jpg)](https://www.youtube.com/watch?v=sNuc83q-v-A)
+
+[![KEN Interface — Stop Stacking Your Dev Boards — There's a Better Way](https://img.youtube.com/vi/DMRa_tTHA18/maxresdefault.jpg)](https://www.youtube.com/watch?v=DMRa_tTHA18)
 
 
 ---
